@@ -20,8 +20,6 @@
 
 	<platform name="ios">
 
-		<hook type="after_plugin_add" src="extra/ios_arch.js" />
-
 		<hook type="after_prepare" src="extra/hooks/iosrtc-swift-support.js" />
 
 		<config-file target="config.xml" parent="/*">
